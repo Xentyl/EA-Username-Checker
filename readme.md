@@ -15,5 +15,8 @@ A python script that uses EA's username availability API to check a list of user
 - **Format**: One username per line.
 
 ### `proxies.txt`
-- This file should contain the list of proxies you want to use.
+- This file should contain the list of proxies you want to use. *PROXIES ARE REQUIRED FOR THIS SCRIPT*
 - **Format**: One proxy per line in the format `ip:port`.
+
+### `INFO`
+- **This script is naturally slow, checking a username every 1-2 seconds. This is to prevent being rate limited by EA.**
